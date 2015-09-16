@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List It</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="main">
+<!--LOGO-->
+		<div class="logo">
+			<h1>List It <img src="images/notepad.png" height="75" width="75" alt="notepad image"></h1>
+		</div>
+<!--TEXTBOX-->
+		<form class="textbox">
+			<div id="error">No Input Value!</div>
+			<br>
+			<input id="input_text" type="text" name="Enter Item Here">
+			<button id="add">+</button>
+		</form>
+<!--ITEMS-->
+		<div class="list">
+			<ul class="items">
+				<li><button class="remove">Mark Complete</button>Eggs</li>
+			</ul>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/application.js"></script>
+</body>
+</html>
